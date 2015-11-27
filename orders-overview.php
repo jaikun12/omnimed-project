@@ -42,7 +42,6 @@
 					}
 					?>
 					</a></li>
-					<li><a href="#">Report Printing</a></li>
 					<li><a href="#">Orders</a></li>
 					<li><a href="php/logout.php">Logout</a></li>
 				</ul>

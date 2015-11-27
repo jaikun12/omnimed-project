@@ -30,7 +30,7 @@
 					}
 						?></b></a></li>
 					<li><a href="admin-dash.php">Clients Overview</a></li>
-					<li><a href="#">Report Printing</a></li>
+					<li><a href="#">Notifications</a></li>
 					<li><a href="orders-overview.php">Orders</a></li>
 					<li><a href="php/logout.php">Logout</a></li>
 				</ul>

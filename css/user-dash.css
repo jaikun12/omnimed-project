@@ -81,3 +81,8 @@
 	height:20em;
 }
 
+.collapsible-body{
+	max-height:400px;
+	overflow:auto;
+}
+

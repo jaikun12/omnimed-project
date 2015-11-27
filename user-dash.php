@@ -42,7 +42,7 @@
 				<div class="card-content">
 					<div class="row">
 						<div class="col m6">
-							<img id="logo" src="omnimedlogo.png">
+							<i class="large material-icons">input</i>
 							<h5>Send a New Order</h5>
 							<p>Send an Order via an Excel File or Individual Submission.</p>
 							<br><br>
@@ -51,7 +51,7 @@
 						</div>
 
 						<div class="col m6">
-							<img id="logo" src="omnimedlogo.png">
+							<i class="large material-icons">receipt</i>
 							<h5>My Orders</h5>
 							<p>See all of your current and past orders.</p>
 							<br><br>
@@ -161,7 +161,7 @@
 								$status = $result['status'];
 								
 								echo "<li>
-									  <div class='collapsible-header'>
+									  <div class='collapsible-header teal lighten-4'>
 									  	<p>$order_num
 									  				 <span style='margin-left:15.7em;'>$issue_date</span>
 									  				 

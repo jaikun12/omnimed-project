@@ -13,34 +13,33 @@
 
 
 	<body>
-		<nav class="white">
-			<div class="nav-wrappper z-depth-1">
-				<a href="#" class="brand-logo"><img id="logo" src="omnimedlogo.png"></a>
-				
-				<ul id="nav-mobile" class="right hide-on-med-and-down">
-					<li><a href="#">Ordering Details</a></li>
-					<li><a href="#">Login</a></li>
-				</ul>
-			</div>
-		</nav>
 
+	<center><img id="logo" src="omnimedlogo.png"></center>
+
+	<div class="container">
 	<form action='php/authentication.php' method='POST'>
-		<div class="input-field">
-			<input type="text" name="username"><span class="highlight"></span>
-			<label>Username</label>
+		<div class="row">
+			<div class="input-field col s5">
+				<input type="text" name="username"><span class="highlight"></span>
+				<label>Username</label>
+			</div>
+			
+			<div class="input-field col s5">
+				<input type="password" name="password"><span class="highlight"></span>
+				<label>Password</label>
+			</div>
+			<div class="input-field col s2">
+				<button type="submit" class="btn waves-effect waves-light" >Login
+				</button>
+			</div>
 		</div>
-		<br>
-		<div class="input-field">
-			<input type="password" name="password"><span class="highlight"></span>
-			<label>Password</label>
-		</div>
-		<button type="submit" class="btn waves-effect waves-light" >Login
-		</button>
+
 		<?php 	
 			if(isset($_GET["error"])){
 				$errorHandler->getE($_GET["error"]);
 			}?>
 	</form>
+	</div>
 
 
 		<script src="js/jquery-2.1.4.min.js"></script>

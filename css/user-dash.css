@@ -1,0 +1,83 @@
+#main{
+	padding:20px;
+}
+
+#logo{
+	width:140px;
+	
+}
+
+#logo-lg{
+	width:250px;
+}
+
+.white{
+	background-color:white;
+}
+
+#nav{
+	height:100%;
+}
+
+#welcome-div{
+	height:40em;
+}
+
+#welcome{
+	height:400px;
+	vertical-align:center;
+}
+
+#order{
+
+	vertical-align:center;
+	margin-bottom:100px;
+	padding:50px;
+}
+
+#file-submit{
+	left:42.5%;
+}
+
+#file-submit-btn{
+	float:right;
+	vertical-align:center;
+	text-align:center;
+}
+
+#order h1{
+	margin-top:5%;
+	margin-bottom:5%;
+}
+
+#orderlist{
+	vertical-align:center;
+	padding:50px;
+}
+
+#welcome h1{
+	margin-top:10%;
+	margin-bottom:5%;
+
+}
+
+#new-order{
+	
+	margin-top:3em;
+	margin-bottom:10em;
+}
+
+#my-orders{
+	
+	margin-top:3em;
+	margin-bottom:10em;
+}
+
+.container-fluid{
+	width:100% !important;
+}
+
+.card.large .card-content{
+	height:20em;
+}
+

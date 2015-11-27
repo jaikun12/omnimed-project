@@ -1,0 +1,25 @@
+
+#logo{
+	width:140px;
+	margin-left:100px;
+}
+
+.white{
+	background-color:white;
+}
+
+#nav-mobile a{
+	color:black;
+}
+
+#welcome{
+	height:400px;
+	vertical-align:center;
+}
+
+#welcome h1{
+	margin-top:10%;
+	margin-bottom:5%;
+
+}
+

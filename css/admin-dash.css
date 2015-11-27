@@ -1,0 +1,41 @@
+
+
+
+.main{
+	padding:20px;
+}
+
+#logo{
+	width:140px;
+	
+}
+
+.collection-logo{
+	width:70px;
+	float:right;
+
+}
+
+.white{
+	background-color:white;
+}
+
+#nav-mobile a{
+	color:black;
+}
+
+#clients{
+	padding-top:2em;
+}
+
+.icon-btn{
+	background-color:rgba(0,0,0,0);
+	border:none;
+}
+
+#name{
+color: black;
+float: left;
+position: relative;
+left: 150px;
+)
